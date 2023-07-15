@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partidas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="container mt-5">
+    <h1>RACHINHAS</h1>
+    <form id="formEnviarPartida">
+        <div class="boxInput"> 
+            <label for="inputTitulo">
+                Título
+            </label>
+            <input type="text" name="titulo" class="form-control" placeholder="Título do evento" required id="inputTitulo" />
+        </div>
+        <div class="boxInput">
+            <label for="inputLocal">
+                Local
+            </label>
+            <input type="text" name="local" class="form-control" placeholder="Local do evento" required  id="inputLocal" />
+        </div>
+        <div class="boxInput">
+            <label for="inputData">
+                Data
+            </label>
+            <input type="date" name="dataEvento" class="form-control" placeholder="Data do evento" required  id="inputData" />
+        </div>
+        <div class="boxInput">
+            <label for="inputHorario">
+                Horário
+            </label>
+            <input type="time" name="horario" class="form-control" placeholder="Horário do evento" required  id="inputHorario" />
+        </div>
+        <button type="submit" class="btn btn-primary">Adicionar</button>
+    </form>
+    <h2>Partidas</h2>
+    <ul id="listaDePartidas" class="list-group">
+
+    </ul>
+    <script src="./scripts/paginaInicial.js" type="module"></script>
+
+    <!-- link do jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- link do JavaScript do Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

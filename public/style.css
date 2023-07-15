@@ -1,0 +1,19 @@
+.container {
+    max-width: 600px;
+}
+
+.boxInput {
+    margin-bottom: 15px;
+}
+*{
+    color: black;
+}
+li {
+    color: black;
+}
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 5%;
+}
